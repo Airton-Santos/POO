@@ -42,6 +42,61 @@ let aluno5 = {
 }
 
 
-console.log(aluno4.nome)
-console.log(aluno4.cpf)
-console.log(aluno4.nota)
+console.log("Nome: " + aluno4.nome)
+console.log("CPF: " + aluno4.cpf)
+console.log("Nota: " + aluno4.nota)
+
+//parte 2
+
+
+let carro1 = {
+    modelo: 'Spin Ls',
+    marca: 'Chevrolet',
+    ano: '2020',
+    quilometragem: '74.766 km',
+    cor: 'Prata',
+    preco: '61.990'
+}
+
+let carro2 = {
+    modelo: 'Chevrolet',
+    marca: 'Classic Life',
+    ano: '2015',
+    quilometragem: '68.000 km',
+    cor: 'Branco',
+    preco: '33.000'
+}
+
+let carro3 = {
+    modelo: 'Fiat',
+    marca: 'Palio Attractive',
+    ano: '2013',
+    quilometragem: '175.286 km',
+    cor: 'Branco',
+    preco: '29.000'
+}
+
+let carro4 = {
+    modelo: 'Hyundai',
+    marca: 'Hb20',
+    ano: '2023',
+    quilometragem: '1.234 km',
+    cor: 'Branco',
+    preco: '84.000'
+}
+
+let carro5 = {
+    modelo: 'Nissan',
+    marca: 'Versa S',
+    ano: '2019',
+    quilometragem: '46.000 km',
+    cor: 'Branco',
+    preco: '52.990'
+}
+
+console.log(carro4.modelo)
+console.log(carro4.marca)
+console.log(carro4.ano)
+console.log(carro4.quilometragem)
+console.log(carro4.cor)
+console.log(carro4.preco)
