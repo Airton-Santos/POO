@@ -97,6 +97,7 @@ let celular1 = {
     marca: "Samsung",
     modelo: "Galaxy S21 Ultra",
     armazenamento: "256 GB",
+    imagem: "./img/Samsung - Galaxy S21 Ultra.jpg",
     ram: "12 GB",
     processador: "Exynos 2100 (Global) / Snapdragon 888 (USA)",
     tipoTela: "Dynamic AMOLED 2X, 120Hz, HDR10+",
@@ -109,6 +110,7 @@ let celular2 = {
     marca: "Apple",
     modelo: "iPhone 13 Pro Max",
     armazenamento: "512 GB",
+    imagem: "./img/iPhone 13 Pro Max.jpg",
     ram: "6 GB",
     processador: "Apple A15 Bionic",
     tipoTela: "Super Retina XDR OLED, HDR10, Dolby Vision",
@@ -121,6 +123,7 @@ let celular3 = {
     marca: "Xiaomi",
     modelo: "Xiaomi Mi 11 Ultra",
     armazenamento: "256 GB",
+    imagem: "./img/iPhone 13 Pro Max.jpg",
     ram: "12 GB",
     processador: "Qualcomm Snapdragon 888",
     tipoTela: "AMOLED, 120Hz, HDR10+",
@@ -133,6 +136,7 @@ let celular4 = {
     marca: "OnePlus",
     modelo: "OnePlus 9 Pro",
     armazenamento: "256 GB",
+    imagem: "./img/OnePlus - OnePlus 9 Pro.jpg",
     ram: "12 GB",
     processador: "Qualcomm Snapdragon 888",
     tipoTela: "Fluid AMOLED, 120Hz, HDR10+",
@@ -145,6 +149,7 @@ let celular5 = {
     marca: "Google",
     modelo: "Google Pixel 6 Pro",
     armazenamento: "256 GB",
+    imagem: "./img/Google - Google Pixel 6 Pro.jpg",
     ram: "12 GB",
     processador: "Google Tensor",
     tipoTela: "P-OLED, 120Hz, HDR10+",
@@ -157,6 +162,7 @@ let celular6 = {
     marca: "Huawei",
     modelo: "Huawei P40 Pro+",
     armazenamento: "512 GB",
+    imagem: "./img/Huawei P40 Pro+.jpg",
     ram: "8 GB",
     processador: "HiSilicon Kirin 990 5G",
     tipoTela: "OLED, 90Hz, HDR10",
@@ -169,6 +175,7 @@ let celular7 = {
     marca: "Oppo",
     modelo: "Oppo Find X3 Pro",
     armazenamento: "256 GB",
+    imagem: "./img/Oppo Find X3 Pro.jpg",
     ram: "12 GB",
     processador: "Qualcomm Snapdragon 888",
     tipoTela: "AMOLED, 120Hz, HDR10+",
@@ -187,6 +194,7 @@ for(let i = 0; i<listaDeCelulares.length;i++){
     document.write(`
     <div class="card">
         <p class="nome">${listaDeCelulares[i].marca} - ${listaDeCelulares[i].modelo}</p> 
+        <p class="img"><img src="${listaDeCelulares[i].imagem}"></p>
         <p class="armazenamento"> ARMAZENAMENTO: ${listaDeCelulares[i].armazenamento}</p>
         <p class="ram">RAM: ${listaDeCelulares[i].ram}</p>
         <p class="cor">COR: ${listaDeCelulares[i].cor}</p>
